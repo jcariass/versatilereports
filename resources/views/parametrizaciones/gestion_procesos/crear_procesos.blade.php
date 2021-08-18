@@ -1,5 +1,14 @@
 @extends('layouts.principal')
 
+@section('style')
+    <style>
+        .error{
+            color: red;
+            font-style: italic;
+        }
+    </style>
+@endsection
+
 @section('contenido')
 <div class="app-content content">
     <div class="content-overlay"></div>
